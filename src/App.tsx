@@ -1,7 +1,13 @@
+import Input from "./components/Input";
+import Results from "./components/Results";
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <div className="Wrapper">
+        <Input />
+        <Results />
+      </div>
     </>
   );
 }

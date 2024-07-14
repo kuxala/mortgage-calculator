@@ -4,3 +4,28 @@
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans";
 }
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+  @media (min-width: 768px){
+    background: var(--color-slate-100, #E4F4FD);
+  }
+}
+
+.Wrapper{
+  width: 100%;
+  margin-top: 100px;
+  
+  @media (min-width: 768px){
+    display: flex;
+    justify-content: center;
+  }
+}
